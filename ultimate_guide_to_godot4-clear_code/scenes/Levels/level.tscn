@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dokugnoti0pbt"]
+
+[ext_resource type="PackedScene" uid="uid://da10ks5e63d0v" path="res://scenes/Player/player.tscn" id="1_5jm6q"]
+[ext_resource type="PackedScene" uid="uid://cbakpix13yaei" path="res://scenes/Bed.tscn" id="2_cs1bt"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Node2D" parent="." instance=ExtResource("2_cs1bt")]
+scale = Vector2(1.1619, 0.901779)
+
+[node name="Player" parent="." instance=ExtResource("1_5jm6q")]
+position = Vector2(-51, -112)
